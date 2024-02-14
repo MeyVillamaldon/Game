@@ -12,7 +12,7 @@ let opciones = [
     'Fotos ramdon'
 ];
 let cantidad = opciones.length;
-let ramdon= opciones[Math.floor(Math.random()*cantidad)+1];
+let ramdon= opciones[Math.floor(Math.random()*cantidad)];
 
 //llamo del html donde ira el txt
 let cuponera =document.getElementById('cuponera');
